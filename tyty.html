@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #000000;
+}
+
+/* Define the font for everything */
+* {
+  font-family: 'Open Sans' , sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Define an OTF file as a font */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("./OpenSans-Regular.ttf") format("truetype");
+}
+
+.bgimg {
+  background-image: url('./2011.png');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  /*font-family: "Courier New", Courier, monospace;*/
+  font-family: Open Sans;
+  /*font-size: 40px;*/
+  font-size: 40px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <p><!--Acama's Homework presents: Movie Night--></p>
+  </div>
+  <div class="middle">
+    <h1 id="title">Thank you!</h1>
+    <hr>
+    <p id="countdown">Until next time! </p>
+  </div>
+  <div class="bottomleft">
+    <p id="footer">Movie Night runs every Friday at 3PM EST</p><!--Please ping me with the movie you want to watch-->
+  </div>
+</div>
+
+
+
+</body>
+</html>
