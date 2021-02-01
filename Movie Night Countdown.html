@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
 <style>
 body, html {
   height: 100%;
@@ -21,11 +23,11 @@ body, html {
 /* Define an OTF file as a font */
 @font-face {
   font-family: 'Open Sans';
-  src: url("./OpenSans-Regular.ttf") format("truetype");
+  src: url("./Font/OpenSans-Regular.ttf") format("truetype");
 }
 
 .bgimg {
-  background-image: url('./2011.png');
+  background-image: url('./Archival/cinema3.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -62,6 +64,8 @@ hr {
   width: 40%;
 }
 </style>
+<script src="./dataSet.js"></script>
+</head>
 <body>
 
 <div class="bgimg">
@@ -77,10 +81,12 @@ hr {
     <p id="footer">Acama's Homework presents: Movie Night</p><!--Please ping me with the movie you want to watch-->
   </div>
 </div>
-
+<script>
+  document.getElementsByClassName('bgimg')[0].style.backgroundImage = `url('${image}')`;
+</script>
 <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("Nov 20, 2020 21:00:00").getTime();
+  var countDownDate = new Date(`${time}`).getTime();
   
   // Update the count down every 1 second
   var x = setInterval(function() {
