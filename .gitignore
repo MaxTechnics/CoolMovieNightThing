@@ -1,0 +1,5 @@
+# Node Modules
+/Infonet Electron/node_modules/
+
+# Builds
+/Infonet Electron/release-builds/
