@@ -1,0 +1,3 @@
+asar extract app.asar discordasar
+asar unpack app.asar discordasar
+asar pack .\app\ app.asar

@@ -1,0 +1,36 @@
+{
+  "name": "Infonet-HyperText",
+  "version": "50.0.0",
+  "description": "A billboard like system for schools",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . \"Infonet HyperText\" --overwrite --platform=darwin --arch=all --icon=Icon/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . \"Infonet HyperText\" --overwrite --platform=win32 --arch=all --icon=Icon/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Infonet HyperText\"",
+    "package-linux": "electron-packager . \"Infonet HyperText\" --overwrite --platform=linux --arch=all --icon=Icon/iconnative.png --prune=true --out=release-builds",
+    "package-mac-asar": "electron-packager . \"Infonet HyperText\" --overwrite --platform=darwin --arch=all --icon=Icon/icon.icns --prune=true --out=release-builds",
+    "package-win-asar": "electron-packager . \"Infonet HyperText\" --overwrite --asar --platform=win32 --arch=all --icon=Icon/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Infonet HyperText\"",
+    "package-linux-asar": "electron-packager . \"Infonet HyperText\" --overwrite --asar --platform=linux --arch=all --icon=Icon/iconnative.png --prune=true --out=release-builds"
+  },
+  "author": "Maxim Coppieters",
+  "license": "CC BY NC SA 4.0",
+  "dependencies": {
+    "discord-rpc": "^3.2.0"
+  },
+  "devDependencies": {
+    "electron": "^10.1.2",
+    "electron-packager": "^15.1.0"
+  },
+  "build": {
+    "appId": "com.MaximCoppieters.Infonet-HyperText",
+    "productName": "Infonet HyperText",
+    "copyright": "Copyright © 2020 Maxim Coppieters",
+    "mac": {
+      "icon": "./Icon/icon.icns",
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "icon": "./Icon/icon.ico"
+    }
+  }
+}

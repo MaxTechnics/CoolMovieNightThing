@@ -3,3 +3,9 @@
 
 # Builds
 /Infonet Electron/release-builds/
+
+# The app.asar file is usually too big (for now)
+Infonet Electron/app/app.asar
+
+# Spotlight indexing crap
+*.DS_Store

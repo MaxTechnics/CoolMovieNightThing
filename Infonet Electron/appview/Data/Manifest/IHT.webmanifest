@@ -1,0 +1,60 @@
+{
+    "name": "Infonet HyperText",
+    "short_name": "Infonet",
+    "description": "Billboard system for schools",
+    "icons": [{
+        "src": "../../Images/Glyph/HyperTextLogo4848.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo7272.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo9696.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo128128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo144144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo152152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo168168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo256256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo384384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "../../Images/Glyph/HyperTextLogo512512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#79c748",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "landscape"
+}
