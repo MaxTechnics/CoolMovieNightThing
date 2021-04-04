@@ -104,20 +104,20 @@ async function setActivity() {
 		activity: {
 			details: 'Hello OwO',
 			state: 'alive, i think',
-			timestamps: {
-				start: 1017534582441 //Date.now()
-			},
+			//timestamps: {
+			//	start: 1017534582441 //Date.now()
+			//},
 			assets: {
 				large_image: 'maxim', // large image key from developer portal > rich presence > art assets
 				large_text: 'Oxygen Amirite?',
 				small_image: 'maxim',
 				small_text: 'GIME COFFEE'
 			},
-			/*buttons: [
+			buttons: [
 				{ label: 'Rickroll?', url: 'https://github.com/MaxTechnics/' },
-				{ label: 'Definitely googol le mao', url: 'https://bing.com' }
-			],*/
-			secrets: {
+				{ label: 'Join the channel', url: 'https://discord.gg/eYJ7HDAVBf' }
+			],
+			/*secrets: {
 				match: 'funnymatch',
 				join: 'funnijoin',
 				spectate: 'spectatme',
@@ -125,7 +125,7 @@ async function setActivity() {
 			party: {
 				id: 'id',
 				size: [1, 100]
-			}
+			}*/
 			//partyId: "ae488379-351d-4a4f-ad32-2b9b01c91657",
 			//partySize: 1,
 			//partyMax: 5,

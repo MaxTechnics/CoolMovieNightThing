@@ -1,7 +1,7 @@
 {
-  "name": "Infonet-HyperText",
-  "version": "50.0.0",
-  "description": "A billboard like system for schools",
+  "name": "movie-night-countdown",
+  "version": "1.0.0",
+  "description": "Countdown screen for the Movie Nights at the r/JaidenAnimations Discord server",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -22,9 +22,9 @@
     "electron-packager": "^15.1.0"
   },
   "build": {
-    "appId": "com.MaximCoppieters.Infonet-HyperText",
-    "productName": "Infonet HyperText",
-    "copyright": "Copyright © 2020 Maxim Coppieters",
+    "appId": "com.maximcoppieters.Movie-Night-Countdown",
+    "productName": "Movie Night Countdown",
+    "copyright": "Copyright © 2021 Maxim Coppieters",
     "mac": {
       "icon": "./Icon/icon.icns",
       "category": "public.app-category.utilities"
