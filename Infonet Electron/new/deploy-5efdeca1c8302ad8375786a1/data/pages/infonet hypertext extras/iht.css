@@ -1,0 +1,71 @@
+/* Body */
+body, html {
+  height: 100%;
+  margin: 0;
+  /* Prevent scrolling */
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Define the font for everything */
+* {
+  font-family: 'Comfortaa' , sans-serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                      supported by Chrome, Opera and Firefox */
+}
+
+/* Intro Overlay */
+#overlay {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #E8E8E8;
+  z-index: 10;
+}
+
+
+/* Theme video file */
+#HyperTextTheme{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Define an OTF file as a font */
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("../../Font/Comfortaa.otf") format("opentype");
+}
+
+#mainframe {
+  position: fixed; 
+  top:0; 
+  left:0; 
+  bottom:0; 
+  right:0; 
+  width:100%; 
+  height:100%; 
+  border:none; 
+  margin:0; 
+  padding:0; 
+  overflow:hidden; 
+  z-index:0;
+}

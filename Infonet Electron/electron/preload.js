@@ -4,12 +4,17 @@ winMinimize = () => {
     win.minimize();
 }
 winMaximize = () => {
-  if (win.isMaximized()) {
-      win.unmaximize();
-  } else{
-      win.maximize();
-  }
+    if (win.isMaximized()) {
+        win.unmaximize();
+    } else {
+        win.maximize();
+    }
 }
 winClose = () => {
     win.close();
+}
+
+/* Movie night custom stuff */
+updateRPC = () => {
+
 }

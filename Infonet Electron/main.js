@@ -43,14 +43,16 @@ function createWindow() {
 	splashWindow.loadFile('./app/splash.asar/splash.html');
 
 
-	mainWindow.loadFile('./appview/view.html');
+	mainWindow.loadFile('./app/new.html');
 	// For deploys use asar below
 	//mainWindow.loadFile('./app/app.asar/Data/Pages/main.html')
 	mainWindow.webContents.openDevTools()
 	mainWindow.setMenuBarVisibility(false)
 
 	mainWindow.once('ready-to-show', () => {
-		splashWindow.destroy();
+		setTimeout(() => {
+			splashWindow.destroy();
+		}, 1000);
 		mainWindow.show();
 	});
 }
@@ -114,7 +116,7 @@ async function setActivity() {
 				small_text: 'GIME COFFEE'
 			},
 			buttons: [
-				{ label: 'Rickroll?', url: 'https://github.com/MaxTechnics/' },
+				{ label: 'Remove Friend', url: 'osu://' },
 				{ label: 'Join the channel', url: 'https://discord.gg/eYJ7HDAVBf' }
 			],
 			/*secrets: {
@@ -143,8 +145,6 @@ rpc.on('ready', () => {
 	//});
 
 	setActivity();
-
-
 
 	// activity can only be set every 15 seconds
 	//setInterval(() => {

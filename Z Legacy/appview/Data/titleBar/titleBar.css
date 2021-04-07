@@ -1,0 +1,187 @@
+button {
+    border: 0;
+    cursor: pointer;
+}
+.theme-light {
+    --text-muted: #747f8d;
+    --interactive-normal: #4f5660;
+    --interactive-hover: #2e3338;
+    --interactive-active: #060607;
+    --background-modifier-hover: rgba(116, 127, 141, 0.08);
+    --background-modifier-active: rgba(116, 127, 141, 0.16);
+}
+.theme-dark {
+    --text-muted: #72767d;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --background-modifier-hover: rgba(79, 84, 92, 0.16);
+    --background-modifier-active: rgba(79, 84, 92, 0.24);
+}
+::-webkit-input-placeholder,
+button {
+    /*font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-rendering: optimizeLegibility;
+}
+::-moz-placeholder,
+
+button {
+    /*font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-rendering: optimizeLegibility;
+}
+:-ms-input-placeholder,
+
+button {
+    /*font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-rendering: optimizeLegibility;
+}
+::placeholder,
+
+button {
+    /*font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-rendering: optimizeLegibility;
+}
+button,
+div {
+    outline: 0;
+}
+.titleBar {
+    height: 18px;
+    margin-top: 4px;
+    z-index: 9;
+    -webkit-app-region: drag;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    /* Added in post */
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+/* Added in post */
+.titleBar:hover {
+    opacity: 1;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.closeWindow {
+    position: relative;
+    top: -4px;
+    cursor: pointer;
+    width: 28px;
+    height: 22px;
+    pointer-events: auto;
+    -webkit-app-region: no-drag;
+    color: var(--interactive-normal);
+    
+    position: relative;
+    top: -4px;
+    cursor: pointer;
+    width: 28px;
+    height: 22px;
+    pointer-events: auto;
+    -webkit-app-region: no-drag;
+    color: var(--interactive-normal);
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.closeWindow:hover {
+    color: #fff;
+    background-color: #f04747;
+}
+.maximizeWindow {
+    position: relative;
+    top: -4px;
+    cursor: pointer;
+    width: 28px;
+    height: 22px;
+    pointer-events: auto;
+    -webkit-app-region: no-drag;
+    color: var(--interactive-normal);
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.maximizeWindow:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-hover);
+}
+.maximizeWindow:active {
+    background-color: var(--background-modifier-active);
+    color: var(--interactive-active);
+}
+.minimizeWindow {
+    position: relative;
+    top: -4px;
+    cursor: pointer;
+    width: 28px;
+    height: 22px;
+    pointer-events: auto;
+    -webkit-app-region: no-drag;
+    color: var(--interactive-normal);
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.minimizeWindow:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-hover);
+}
+.minimizeWindow:active {
+    background-color: var(--background-modifier-active);
+    color: var(--interactive-active);
+}
+.titleBarLogo {
+    pointer-events: none;
+    font-size: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 9px 3px;
+    color: var(--text-muted);
+}
