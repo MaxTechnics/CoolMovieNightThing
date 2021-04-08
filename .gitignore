@@ -1,12 +1,11 @@
-# Node Modules
-/Infonet Electron/node_modules/
+# node modules
+/electron app/node_modules/
+
+# Old stuffs
+/Z Legacy/
 
 # Builds
-/Infonet Electron/release-builds/
-
-# The app.asar file is usually too big (for now)
-Infonet Electron/app/app.asar
+/electron app/release-builds/
 
 # Spotlight indexing crap
 *.DS_Store
-Z Legacy/app/app.asar
