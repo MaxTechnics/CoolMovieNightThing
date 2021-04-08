@@ -255,7 +255,7 @@ body {
 
 .Background {
 	/* The image used */
-	background-image: url('../Images/Background/default.jpg') !important;
+	background-image: url('../Images/Background/default.jpg');
 	/* Full height */
 	height: 100%;
 	/* Center and scale the image nicely */

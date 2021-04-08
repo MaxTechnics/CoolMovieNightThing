@@ -1,0 +1,20 @@
+const strings = {
+	time: 'Apr 7, 2021 20:47:00',
+	movie: 'Office Space',
+	imageURL: 'https://raw.githubusercontent.com/MaxTechnics/CoolMovieNightThing/master/Archival/LWA.jpg',
+	centerMessage: 'Movie Night starts in:',
+	postCounterMessage: 'Starting soon...',
+	headerText: 'Today we\'re watching: ',
+	footerText: 'Presented by Retainededge and Grady\'s Physics Homework',
+	RPCCountMessage: 'Starts in: ',
+	RPCPostCountMsg: 'Now Playing!',
+	RPClarge_image: 'maxim',
+	RPCsmall_image: 'maxim',
+	RPClarge_text: 'Take a seat',
+	RPCsmall_text: 'This is Maxim',
+	RPCPostCountlarge_image: 'maxim',
+	RPCPostCountsmall_image: 'maxim',
+	RPCPostCountlarge_text: 'Take a seat',
+	RPCPostCountsmall_text: 'This is Maxim',
+	version: 1
+}

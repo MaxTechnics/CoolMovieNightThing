@@ -82,7 +82,7 @@ const clientId = '788168870615318578';
 DiscordRPC.register(clientId);
 
 const rpc = new DiscordRPC.Client({ transport: 'ipc' });
-const startTimestamp = new Date();
+//const startTimestamp = new Date();
 
 async function setActivity() {
 	//if (!rpc || !mainWindow) {
@@ -110,13 +110,13 @@ async function setActivity() {
 			//	start: 1017534582441 //Date.now()
 			//},
 			assets: {
-				large_image: 'maxim', // large image key from developer portal > rich presence > art assets
+				large_image: 'frontrow', // large image key from developer portal > rich presence > art assets
 				large_text: 'Oxygen Amirite?',
 				small_image: 'maxim',
 				small_text: 'GIME COFFEE'
 			},
 			buttons: [
-				{ label: 'Remove Friend', url: 'osu://' },
+				{ label: 'funi game', url: 'osu://' },
 				{ label: 'Join the channel', url: 'https://discord.gg/eYJ7HDAVBf' }
 			],
 			/*secrets: {
