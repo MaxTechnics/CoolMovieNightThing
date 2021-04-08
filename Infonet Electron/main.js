@@ -1,4 +1,4 @@
-const DiscordRPC = require('discord-rpc');
+//const DiscordRPC = require('discord-rpc');
 var app = require('electron').app;
 var BrowserWindow = require('electron').BrowserWindow;
 const path = require('path');
@@ -12,7 +12,7 @@ function createWindow() {
 		resizable: true,
 		movable: true,
 		alwaysOnTop: false,
-		title: 'Infonet HyperText',
+		title: 'Movie Night',
 		transparent: false,
 		fullscreenable: true,
 		titleBarStyle: 'hidden',
@@ -36,6 +36,7 @@ function createWindow() {
 		height: 300,
 		transparent: true,
 		frame: false,
+		icon: path.join(__dirname + '/Icon/icon.ico'), /*icns for mac! 512x512*/
 		alwaysOnTop: true,
 		resizable: false,
 		movable: true
@@ -43,7 +44,7 @@ function createWindow() {
 	splashWindow.loadFile('./app/splash.asar/splash.html');
 
 
-	mainWindow.loadFile('./app/new.html');
+	mainWindow.loadFile('./app/index.html');
 	// For deploys use asar below
 	//mainWindow.loadFile('./app/app.asar/Data/Pages/main.html')
 	mainWindow.webContents.openDevTools()
@@ -74,7 +75,7 @@ app.on('window-all-closed', function() {
 //app.commandLine.appendSwitch('disable-features', 'OutOfBlinkCors');
 //app.commandLine.appendSwitch('disable-site-isolation-trials')``
 
-
+/*
 // Set this to your Client ID.
 const clientId = '788168870615318578';
 
@@ -100,7 +101,7 @@ async function setActivity() {
 		smallImageKey: 'maxim',
 		smallImageText: 'GIVE ME COFFEE',
 		instance: false,
-	});*/
+	});*
 	rpc.request('SET_ACTIVITY', {
 		pid: process.pid,
 		activity: {
@@ -127,7 +128,7 @@ async function setActivity() {
 			party: {
 				id: 'id',
 				size: [1, 100]
-			}*/
+			}*
 			//partyId: "ae488379-351d-4a4f-ad32-2b9b01c91657",
 			//partySize: 1,
 			//partyMax: 5,
@@ -144,7 +145,7 @@ rpc.on('ready', () => {
 	//	shell.openExternal('https://github.com/MaxTechnics/Tofu-Bot?token=' + payload.secret);
 	//});
 
-	setActivity();
+	//setActivity();
 
 	// activity can only be set every 15 seconds
 	//setInterval(() => {
@@ -153,3 +154,4 @@ rpc.on('ready', () => {
 });
 
 rpc.login({ clientId }).catch(console.error);
+*/
