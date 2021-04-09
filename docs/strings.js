@@ -1,7 +1,7 @@
 const strings = {
-    time: 'Apr 9, 2021 01:34:00', //15:00:00 for Retained
-    movie: 'the Emoji Movie',
-    imageURL: 'https://raw.githubusercontent.com/MaxTechnics/CoolMovieNightThing/master/Archival/LWA.jpg',
+    time: 'Apr 9, 2021 22:00:00', //15:00:00 for Retained
+    movie: 'Office Space',
+    imageURL: '', // Cleared or any valid URL
     opacity: '0.4',
     postCounterOpacity: '0.2',
     centerMessage: 'Movie Night starts in:',

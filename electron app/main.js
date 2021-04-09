@@ -55,7 +55,7 @@ function createWindow() {
 	mainWindow.once('ready-to-show', () => {
 		setTimeout(() => {
 			splashWindow.destroy();
-		}, 1000);
+		}, 500);
 		mainWindow.show();
 	});
 }
