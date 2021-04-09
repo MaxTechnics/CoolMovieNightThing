@@ -1,5 +1,5 @@
 const strings = {
-    time: 'Apr 9, 2021 22:00:00', //15:00:00 for Retained
+    time: 'Apr 10, 2021 22:00:00', //15:00:00 for Retained
     movie: 'Office Space',
     imageURL: '', // Cleared or any valid URL
     opacity: '0.4',
