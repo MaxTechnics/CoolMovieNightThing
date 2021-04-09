@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movie Night Backend</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<script type="text/javascript" src="./strings.js"></script>
+	<script src="./sweetalert2@9.min.js"></script>
+	<link rel="stylesheet" href="./borderless.css">
+</head>
+
+<body>
+	<script>
+		Swal.fire({
+			title: 'Movie Night Backend',
+			text: 'Holds info for the Movie Night countdown\nIf you were expecting more, too bad.\nWhat are you still doing here?',
+			icon: 'info',
+			showCancelButton: false,
+			showConfirmButton: false,
+			allowEnterKey: false,
+			allowEscapeKey: false,
+			allowOutsideClick: false,
+			footer: `Latest Electron release: ${strings.latestVersion}`
+		})
+	</script>
+</body>
+
+</html>

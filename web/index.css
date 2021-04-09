@@ -1,0 +1,17 @@
+/* Define the font for everything */
+* {
+    font-family: 'Torus' , sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Opera and Firefox */
+  }
+/* Define an OTF file as a font */
+@font-face {
+	font-family: Torus;
+	font-weight: 100;
+	src: url('./Torus-Thin.daca2c7e.otf');
+}
