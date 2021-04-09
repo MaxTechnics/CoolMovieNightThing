@@ -4,6 +4,7 @@ setBody(strings.centerMessage, strings.headerText, strings.footerText, strings.m
 if (strings.imageURL != '') {
 	document.getElementsByClassName('Background')[0].style.backgroundImage = `url('${strings.imageURL}')`;
 }
+document.getElementsByClassName('Background')[0].style.opacity = strings.opacity;
 var counter = setInterval(() => {
 	calcTime(new Date(strings.time).getTime());
 }, 1000);
@@ -11,8 +12,8 @@ var counter = setInterval(() => {
 document.addEventListener('DOMContentLoaded', function() {
 	setTimeout(() => {
 		removeFadeOut(document.getElementById('loadingscreen'), 500);
+		document.getElementsByClassName('Background')[0].style.opacity = strings.opacity;
 	}, 1000);
-
 }, false);
 
 // Helper functions
@@ -84,8 +85,8 @@ function calcTime(endDate) {
 		let headerEl = document.getElementsByTagName('header')[0];
 		let footerEl = document.getElementsByTagName('footer')[0];
 		centerText.innerHTML = strings.postCounterMessage;
-		removeFadeOut(headerEl, 5000);
-		removeFadeOut(footerEl, 5000);
+		removeFadeOut(headerEl, 2000);
+		removeFadeOut(footerEl, 2000);
 		hoursText.innerHTML = '';
 		minutText.innerHTML = '';
 		seconText.innerHTML = '';
@@ -94,10 +95,11 @@ function calcTime(endDate) {
 		seconDigit.innerHTML = '';
 		//headerEl.innerHTML = '';
 		//footerEl.innerHTML = '';
+		document.getElementsByClassName('Background')[0].style.opacity = strings.postCounterOpacity;
 		setInterval(() => {
 			// Update RPC
-			updateRPC(`Streaming ${strings.movie}`, `${strings.RPCPostCountMsg}`, strings.RPCPostCountlarge_image, strings.RPCPostCountlarge_text, strings.RPCPostCountsmall_image, strings.RPCPostCountsmall_text, strings.RPCPostCountbtn1TXT, strings.RPCPostCountbtn1URL, strings.RPCPostCountbtn2TXT, strings.RPCPostCountbtn2URL);
-		}, 30000);
+			updateRPC(`${strings.movie}`, `${strings.RPCPostCountMsg}`, strings.RPCPostCountlarge_image, strings.RPCPostCountlarge_text, strings.RPCPostCountsmall_image, strings.RPCPostCountsmall_text, strings.RPCPostCountbtn1TXT, strings.RPCPostCountbtn1URL, strings.RPCPostCountbtn2TXT, strings.RPCPostCountbtn2URL);
+		}, 16000);
 	}
 }
 
@@ -128,12 +130,12 @@ function updateBody(h, m, s) {
 
 var countRPC = setInterval(() => {
 	// Update RPC
-	updateRPC(`Streaming ${strings.movie}`, RPCtime, strings.RPClarge_image, strings.RPClarge_text, strings.RPCsmall_image, strings.RPCsmall_text, strings.RPCbtn1TXT, strings.RPCbtn1URL, strings.RPCbtn2TXT, strings.RPCbtn2URL);
-}, 20000);
+	updateRPC(`${strings.movie}`, RPCtime, strings.RPClarge_image, strings.RPClarge_text, strings.RPCsmall_image, strings.RPCsmall_text, strings.RPCbtn1TXT, strings.RPCbtn1URL, strings.RPCbtn2TXT, strings.RPCbtn2URL);
+}, 16000);
 
-function initializeRPC() {
+/*function initializeRPC() {
 	updateRPC(`Streaming ${strings.movie}`, 'Time will appear soon.', strings.RPClarge_image, strings.RPClarge_text, strings.RPCsmall_image, strings.RPCsmall_text, strings.RPCbtn1TXT, strings.RPCbtn1URL, strings.RPCbtn2TXT, strings.RPCbtn2URL);
-}
+}*/
 
 // Version checking
 let currentVersion = 1;

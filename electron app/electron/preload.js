@@ -48,7 +48,15 @@ updateRPC = async (details, state, largeIMG, largeTEXT, smallIMG, smallTEXT, but
 	});
 }
 rpc.on('ready', () => {
-	initializeRPC();
+	//initializeRPC();
+	rpc.request('SET_ACTIVITY', {
+		pid: process.pid,
+		activity: {
+			assets: {
+				large_image: 'frontrow'
+			}
+		}
+	});
 });
 
 rpc.login({ clientId }).catch(console.error);
