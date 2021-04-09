@@ -138,7 +138,7 @@ var countRPC = setInterval(() => {
 }*/
 
 // Version checking
-let currentVersion = 1;
+let currentVersion = 1.1;
 if (strings.latestVersion) {
 	if (currentVersion == strings.latestVersion) {
 		console.log('Up to date');
