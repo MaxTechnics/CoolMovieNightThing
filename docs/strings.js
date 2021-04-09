@@ -17,8 +17,8 @@ const strings = {
     RPCsmall_text: 'This is Maxim',
     RPCbtn1TXT: 'Movie Info',
     RPCbtn1URL: 'https://www.imdb.com/title/tt4877122/', // IMDB Link
-    RPCbtn2TXT: 'GitHub',
-    RPCbtn2URL: 'https://github.com/TeraBaito',
+    RPCbtn2TXT: 'Great game while you wait',
+    RPCbtn2URL: 'osu://',
     RPCPostCountlarge_image: 'frontrow',
     RPCPostCountsmall_image: 'homework',
     RPCPostCountlarge_text: 'Got popcorn?',
