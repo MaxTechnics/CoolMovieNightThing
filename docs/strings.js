@@ -1,7 +1,7 @@
 const strings = {
     time: 'Apr 10, 2021 22:00:00', //15:00:00 for Retained
     movie: 'Office Space',
-    imageURL: '', // Cleared or any valid URL
+    imageURL: 'https://cdn.discordapp.com/attachments/719156784492838973/830442161932992512/unknown.png', // Cleared or any valid URL
     opacity: '0.4',
     postCounterOpacity: '0.2',
     centerMessage: 'Movie Night starts in:',
