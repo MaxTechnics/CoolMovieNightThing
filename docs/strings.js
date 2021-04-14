@@ -1,7 +1,7 @@
 const strings = {
     time: 'Apr 16, 2021 15:00:00', //15:00:00 for Retained
     movie: 'Godzilla vs Kong',
-    imageURL: 'https://cdn.discordapp.com/attachments/719156784492838973/830442161932992512/unknown.png', // Cleared or any valid URL
+    imageURL: 'https://wallpaperaccess.com/full/3745899.jpg', // Cleared or any valid URL
     opacity: '0.4',
     postCounterOpacity: '0.2',
     centerMessage: 'Movie Night starts in:',
