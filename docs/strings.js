@@ -1,7 +1,7 @@
 const strings = {
-    time: 'Apr 16, 2021 21:00:00', //15:00:00 for Retained
-    movie: 'Godzilla vs Kong',
-    imageURL: 'https://wallpaperaccess.com/full/3745899.jpg', // Cleared or any valid URL
+    time: 'Apr 23, 2021 15:00:00', //15:00:00 for Retained
+    movie: 'Spirited Away',
+    imageURL: 'https://news.cgtn.com/news/3d3d514f3363544d35457a6333566d54/img/c66f29f6e575486aa40db56441fa503d/c66f29f6e575486aa40db56441fa503d.jpg', // Cleared or any valid URL
     opacity: '0.4',
     postCounterOpacity: '0.2',
     centerMessage: 'Movie Night starts in:',
@@ -12,19 +12,19 @@ const strings = {
     RPCAlmostThere: 'Starts soon!',
     RPCPostCountMsg: 'Now Playing!',
     RPClarge_image: 'frontrow',
-    RPCsmall_image: 'homework',
+    RPCsmall_image: 'retained',
     RPClarge_text: 'Take a seat',
-    RPCsmall_text: 'Hosted by Maxim',
+    RPCsmall_text: 'Hosted by Retainededge',
     RPCbtn1TXT: 'Movie Info',
-    RPCbtn1URL: 'https://www.imdb.com/title/tt5034838/', // IMDB Link
+    RPCbtn1URL: 'https://www.imdb.com/title/tt0245429/', // IMDB Link
     RPCbtn2TXT: 'Great game while you wait',
     RPCbtn2URL: 'osu://',
     RPCPostCountlarge_image: 'frontrow',
-    RPCPostCountsmall_image: 'homework',
+    RPCPostCountsmall_image: 'retained',
     RPCPostCountlarge_text: 'Got popcorn?',
-    RPCPostCountsmall_text: 'Hosted by maxim',
+    RPCPostCountsmall_text: 'Hosted by Retainededge',
     RPCPostCountbtn1TXT: 'Movie Info',
-    RPCPostCountbtn1URL: 'https://www.imdb.com/title/tt5034838/', // IMDB Link
+    RPCPostCountbtn1URL: 'https://www.imdb.com/title/tt0245429/', // IMDB Link
     RPCPostCountbtn2TXT: 'GitHub',
     RPCPostCountbtn2URL: 'https://github.com/TeraBaito',
     latestVersion: 1.1 // has to be a digit, symantic versioning beyond x.x (like x.x.x) is not supported
