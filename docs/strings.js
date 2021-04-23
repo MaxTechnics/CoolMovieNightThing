@@ -1,5 +1,5 @@
 const strings = {
-    time: 'Apr 23, 2021 21:00:00', //15:00:00 for Retained
+    time: 'Apr 23, 2021 22:00:00', //15:00:00 for Retained | 22:00:00 for yours truly
     movie: 'Spirited Away',
     imageURL: 'https://news.cgtn.com/news/3d3d514f3363544d35457a6333566d54/img/c66f29f6e575486aa40db56441fa503d/c66f29f6e575486aa40db56441fa503d.jpg', // Cleared or any valid URL
     opacity: '0.4',
