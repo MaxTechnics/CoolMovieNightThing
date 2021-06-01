@@ -6,7 +6,7 @@ const strings = {
     postCounterOpacity: '0.2',
     centerMessage: 'Movie Night starts in:',
     postCounterMessage: 'Starting soon...',
-    headerText: 'Caffeine Church Special!',
+    headerText: 'Caffeine Church Special!, watching: ',
     footerText: 'Presented by Grady\'s Physics Homework',
     RPCCountMessage: 'Starts in:',
     RPCAlmostThere: 'Starts soon!',
