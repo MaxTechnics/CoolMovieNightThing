@@ -1,6 +1,6 @@
 const strings = {
-    time: 'June 4, 2021 22:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
-    movie: 'Spiderman Into the Spiderverse and Wall-E',
+    time: 'June 18, 2021 22:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
+    movie: 'The Mitchells vs the Machines',
     imageURL: '', // Cleared or any valid URL
     opacity: '0.4',
     postCounterOpacity: '0.2',
@@ -16,7 +16,7 @@ const strings = {
     RPClarge_text: 'Take a seat',
     RPCsmall_text: 'Hosted by Maxim',
     RPCbtn1TXT: 'Movie Info',
-    RPCbtn1URL: 'https://www.imdb.com/title/tt0910970/', // IMDB Link
+    RPCbtn1URL: 'https://www.imdb.com/title/tt7979580/', // IMDB Link
     RPCbtn2TXT: 'Great game while you wait',
     RPCbtn2URL: 'osu://',
     RPCPostCountlarge_image: 'frontrow',
@@ -24,7 +24,7 @@ const strings = {
     RPCPostCountlarge_text: 'Got popcorn?',
     RPCPostCountsmall_text: 'Hosted by Maxim',
     RPCPostCountbtn1TXT: 'Movie Info',
-    RPCPostCountbtn1URL: 'https://www.imdb.com/title/tt0910970/', // IMDB Link
+    RPCPostCountbtn1URL: 'https://www.imdb.com/title/tt7979580/', // IMDB Link
     RPCPostCountbtn2TXT: 'GitHub',
     RPCPostCountbtn2URL: 'https://github.com/TeraBaito',
     latestVersion: 1.1 // has to be a digit, symantic versioning beyond x.x (like x.x.x) is not supported
