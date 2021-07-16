@@ -1,5 +1,5 @@
 const strings = {
-    time: 'July 16, 2021 15:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
+    time: 'July 16, 2021 22:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
     movie: 'Mr. Peabody and Sherman',
     imageURL: 'https://www.skwigly.co.uk/wp-content/uploads/2014/02/MPS_sq1100_s4_f143_4k_PS_RGB_v1.3.jpg', // Cleared or any valid URL
     opacity: '0.4',
@@ -12,17 +12,17 @@ const strings = {
     RPCAlmostThere: 'Starts soon!',
     RPCPostCountMsg: 'Now Playing!',
     RPClarge_image: 'frontrow',
-    RPCsmall_image: 'retained',
+    RPCsmall_image: 'homework',
     RPClarge_text: 'Take a seat',
-    RPCsmall_text: 'Hosted by Retained',
+    RPCsmall_text: 'Hosted by Maxim',
     RPCbtn1TXT: 'Movie Info',
     RPCbtn1URL: 'https://www.imdb.com/title/tt0864835/', // IMDB Link
     RPCbtn2TXT: 'Great game while you wait',
     RPCbtn2URL: 'osu://',
     RPCPostCountlarge_image: 'frontrow',
-    RPCPostCountsmall_image: 'retained',
+    RPCPostCountsmall_image: 'homework',
     RPCPostCountlarge_text: 'Got popcorn?',
-    RPCPostCountsmall_text: 'Hosted by Retained',
+    RPCPostCountsmall_text: 'Hosted by Maxim',
     RPCPostCountbtn1TXT: 'Movie Info',
     RPCPostCountbtn1URL: 'https://www.imdb.com/title/tt0864835/', // IMDB Link
     RPCPostCountbtn2TXT: 'GitHub',
