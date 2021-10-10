@@ -1,5 +1,5 @@
 const strings = {
-    time: 'October 9, 2021 21:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
+    time: 'October 10, 2021 19:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
     movie: 'Squid Game',
     imageURL: 'https://media.glamour.com/photos/615b50b9b73cf95da55eea61/64:25/w_5888,h_2300,c_limit/SquidGame_Unit_108_0070.jpg', // Cleared or any valid URL
     opacity: '0.4',
