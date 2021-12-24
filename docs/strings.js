@@ -1,7 +1,7 @@
 const strings = {
     time: 'December 24, 2021 22:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
     movie: 'Home Alone',
-    imageURL: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F06%2Ftcdmawi_ec029_h-2000.jpg&q=85', // Cleared or any valid URL
+    imageURL: 'https://cdn.discordapp.com/attachments/794937763630809128/924017369116966912/SpecialEvents_XmasFest_EH.jpg', // Cleared or any valid URL
     opacity: '0.4',
     postCounterOpacity: '0.2',
     centerMessage: 'The 24 hour Movie Night starts in:',
