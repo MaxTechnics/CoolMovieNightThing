@@ -1,6 +1,6 @@
 const strings = {
     time: 'February 4, 2022 21:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
-    movie: 'Home Alone',
+    movie: 'Spies in Disguise',
     imageURL: 'https://cdn.mos.cms.futurecdn.net/Bc6Ny5Dec26JvooP5DYLLQ-1200-80.jpg', // Cleared or any valid URL
     opacity: '0.4',
     postCounterOpacity: '0.2',
