@@ -60,3 +60,35 @@ rpc.on('ready', () => {
 });
 
 rpc.login({ clientId }).catch(console.error);
+/* Reference for later
+(function() {
+	const { BrowserWindow } = require('electron').remote
+
+	let window = BrowserWindow.getFocusedWindow();
+
+	function init() {
+		document.getElementById('min-btn').addEventListener('click', (e) => {
+			window.minimize();
+		});
+
+		document.getElementById('max-btn').addEventListener('click', (e) => {
+			if (window.isMaximized()) {
+				window.unmaximize();
+			} else {
+				window.maximize();
+			}
+		});
+
+		document.getElementById('close-btn').addEventListener('click', (e) => {
+			window.close();
+		});
+	};
+
+	document.onreadystatechange = () => {
+		if (document.readyState == 'complete') {
+			init();
+		}
+	};
+})();
+
+*/
