@@ -1,5 +1,5 @@
 const strings = {
-    time: 'December 21 2023 20:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
+    time: 'December 22 2023 20:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
     movie: 'Big Hero 6',
     imageURL: 'https://images8.alphacoders.com/605/605895.jpg', // Cleared or any valid URL
     opacity: '0.4',
