@@ -1,5 +1,5 @@
 const strings = {
-    time: 'July 18 2025 20:15:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
+    time: 'July 25 2025 21:00:00', //15:00:00 for Retained | 22:00:00 for yours truly | 04:00:00 for Facad3 | 14:00:00 for tewwa
     movie: 'The Super Mario Bros. Movie',
     imageURL: 'https://images.ctfassets.net/4mws6uyas4ta/attfgDOV7n9pnBOYR/afaee6cbee53197943723561537969e2/The_Super_Mario_Bros._Movie_-_1.jpg', // Cleared or any valid URL
     opacity: '0.4',
@@ -7,7 +7,7 @@ const strings = {
     centerMessage: 'Movie Night starts in:',
     postCounterMessage: 'Starting soon...',
     headerText: 'Today we\'re watching: ',
-    footerText: 'Presented by Grady\'s Physics Homework, Shin special!',
+    footerText: 'Presented by Grady\'s Physics Homework, thanks for stopping by!',
     RPCCountMessage: 'Starts in:',
     RPCAlmostThere: 'Starts soon!',
     RPCPostCountMsg: 'Now Playing!',
